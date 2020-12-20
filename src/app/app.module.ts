@@ -9,6 +9,8 @@ import { RecettesComponent } from './recettes/recettes.component';
 import { FormsModule } from '@angular/forms';
 import { ListeIngredientsComponent } from './liste-ingredients/liste-ingredients.component';
 import { IngredientComponent } from './ingredient/ingredient.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { IngredientComponent } from './ingredient/ingredient.component';
     IngredientsComponent,
     RecettesComponent,
     ListeIngredientsComponent,
-    IngredientComponent
+    IngredientComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

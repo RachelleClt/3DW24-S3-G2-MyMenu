@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { INGREDIENTS_STOCK } from '../mock-ingredient-stock';
 
 
 @Component({
@@ -8,7 +7,7 @@ import { INGREDIENTS_STOCK } from '../mock-ingredient-stock';
   styleUrls: ['./ingredient.component.scss']
 })
 export class IngredientComponent implements OnInit {
-  stock = INGREDIENTS_STOCK;
+
   constructor() { }
 
   ngOnInit(): void {
