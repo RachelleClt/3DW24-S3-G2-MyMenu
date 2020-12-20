@@ -12,15 +12,13 @@ export class IngredientsComponent implements OnInit {
   ingredients = INGREDIENTS;
   selectedIngredient: Ingredient;
 
-
   constructor() { }
 
-  ngOnInit(){
+  ngOnInit() {
   }
 
-    onSelect(ingredient: Ingredient): void {
-    this.selectedIngredient = Ingredient;
-    
-    }
+  onSelect(ingredient: Ingredient): void {
+    this.selectedIngredient = ingredient;
+  }
 
 }

@@ -1,4 +1,4 @@
-export class Recette {
+export interface Recette {
   id: number;
   name: string;
 }
