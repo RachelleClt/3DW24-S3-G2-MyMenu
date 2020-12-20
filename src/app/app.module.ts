@@ -8,7 +8,6 @@ import { IngredientsComponent } from './ingredients/ingredients.component';
 import { RecettesComponent } from './recettes/recettes.component';
 import { FormsModule } from '@angular/forms';
 import { ListeIngredientsComponent } from './liste-ingredients/liste-ingredients.component';
-import { IngredientComponent } from './ingredient/ingredient.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -18,7 +17,6 @@ import { FooterComponent } from './footer/footer.component';
     IngredientsComponent,
     RecettesComponent,
     ListeIngredientsComponent,
-    IngredientComponent,
     NavbarComponent,
     FooterComponent
   ],
