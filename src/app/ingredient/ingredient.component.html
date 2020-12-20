@@ -1,0 +1,10 @@
+<h2>Mes ingrédients disponibles</h2>
+<div class="card-deck">
+    
+    <div *ngFor="let ingredient of stock" class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ ingredient.ingredient.name }}</h5>
+            <div class="card-text">Quantité : {{ ingredient.amount }}</div>
+        </div>
+    </div>
+</div>
