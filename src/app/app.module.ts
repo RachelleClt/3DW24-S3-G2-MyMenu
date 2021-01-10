@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { ListeIngredientsComponent } from './liste-ingredients/liste-ingredients.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { IngredientComponent } from './ingredient/ingredient.component';
+import { RecetteComponent } from './recette/recette.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +21,15 @@ import { FooterComponent } from './footer/footer.component';
     RecettesComponent,
     ListeIngredientsComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    IngredientComponent,
+    RecetteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
